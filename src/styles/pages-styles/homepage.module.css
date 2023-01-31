@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
 .homepage-section-container{
     display: flex;
     width: 100%;
     overflow: hidden;
-    background-color: #10171e;
+    background-color: #0f151c;
+    justify-content: center;
+    align-items: center;
 }
 
 .homepage-section-text-child{
@@ -68,4 +72,94 @@
     background-color: blue;
     color: white;
     border: 1px solid blue;
+}
+
+.homepage-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.homepage-footer div{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-footer div:nth-child(2) img{
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.homepage-footer div:nth-child(2) img:hover{
+    transform: scale(-1);
+}
+
+.homepage-footer div:nth-child(3){
+    justify-content: end;    
+}
+
+.homepage-second-section-container{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    background-color: linear-gradient(to bottom, #141823, #0f1318);
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px 30px;
+}
+
+.homepage-second-section-text-child{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homepage-second-section-image-child{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homepage-second-section-image-child img{
+    width: 75%;
+}
+
+.homepage-second-section-text-child h1{
+    font-size: 50px;
+    margin: 10px 0px;
+    text-align: left;
+    color: #cfd0d5;
+    width: 50%;
+    font-family: Open Sans;
+}
+
+.homepage-second-section-text-child p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #ced0d8ad;
+    margin: 0px 0px 20px;
+}
+
+.homepage-second-section-text-child button{
+    background: none;
+    border: 2px solid #cfd0d5;
+    color: #cfd0d5;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 25px;
+    transition: all 0.1s linear;
+    width: 50%;
+}
+
+.homepage-second-section-text-child button:hover{
+    background-color: blue;
+    color: white;
+    border: 2px solid blue;
 }

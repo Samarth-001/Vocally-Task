@@ -1,0 +1,33 @@
+.footer-section{
+    padding: 3% 0px;
+}
+
+.footer-info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #cfd0d5;
+}
+
+.footer-info-container img{
+    height: 30px;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-single-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-info-container p{
+    margin: 10px 0px;
+}

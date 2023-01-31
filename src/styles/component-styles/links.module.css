@@ -1,0 +1,10 @@
+.links-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.individual-link{
+    height: 20px;
+    width: 20px;
+}
