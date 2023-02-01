@@ -1,33 +1,96 @@
-.footer-section{
-    padding: 3% 0px;
+.footer-section {
+  padding: 3% 8%;
+  background-color:#10171e;
 }
 
-.footer-info-container{
-    display: flex;
-    flex-direction: row;
+.footer-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #cfd0d5;
+}
+
+.footer-logo {
+  height: 30px;
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-single-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.footer-image {
+  height: 15px;
+  margin-right: 5px;
+  margin-top: 3px;
+}
+
+.footer-info-container p {
+  margin: 10px 0px;
+}
+
+.footer-policies {
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+
+.footer-links {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.footer-links div {
+  display: flex;
+  justify-content: space-between;
+  width: 35%;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer-info-container {
+    flex-direction: column;
+    margin-bottom: 35px;
+  }
+  .footer-info {
     justify-content: space-between;
     align-items: center;
-    color: #cfd0d5;
-}
+    width: 100%;
+  }
+  .footer-logo {
+    margin-bottom: 20px;
+  }
 
-.footer-info-container img{
-    height: 30px;
-}
-
-.footer-info{
+  .footer-policies {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+  }
+  .footer-info-container div:nth-child(3) {
+    width: 100%;
+    margin-top: 40px;
+    justify-content: space-between;
     align-items: center;
-}
-
-.footer-single-info{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-info-container p{
-    margin: 10px 0px;
+  }
+  .footer-info-container div:nth-child(3) img {
+    height: 25px;
+    width: 25px;
+  }
+  .footer-image {
+    margin-top: 3px;
+  }
+  .footer-links div {
+    width: 100%;
+  }
 }

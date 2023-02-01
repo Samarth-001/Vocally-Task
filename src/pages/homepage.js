@@ -65,6 +65,7 @@ const Homepage = () => {
               <input
                 className={styles["homepage-form-input"]}
                 placeholder="Enter your Name"
+                required
                 type="text"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -72,6 +73,7 @@ const Homepage = () => {
               <input
                 className={styles["homepage-form-input"]}
                 placeholder="Enter your Email"
+                required
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
@@ -91,7 +93,9 @@ const Homepage = () => {
           <div>
            <img src={Down} onClick={handleClickScroll} alt=""/>
           </div>
+          <div>
           <Links />
+          </div>
         </div>
       </section>
 

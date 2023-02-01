@@ -9,7 +9,9 @@ import Homepage from "./pages/homepage.js"
 function App() {
   return (
     <>
-    <div style={{padding:"0px 85px",backgroundColor:"#10171e"}}>
+    <div
+    //  style={{padding:"0px 8%",backgroundColor:"#10171e"}}
+     >
       <Navbar />
       <Homepage/>
       <Footer />
